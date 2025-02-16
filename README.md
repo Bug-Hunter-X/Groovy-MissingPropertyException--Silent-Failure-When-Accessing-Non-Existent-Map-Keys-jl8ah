@@ -1,0 +1,1 @@
+This example demonstrates a common, yet subtle, error in Groovy related to accessing keys in maps. When trying to access a non-existent key in a map, Groovy throws a `MissingPropertyException` which might not always be caught, leading to unexpected program behavior. The solution shows how to safely access map keys using the `get()` method or the elvis operator (`?:`).
